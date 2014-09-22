@@ -1,0 +1,76 @@
+@media only screen and (min-width:650px) and (max-width:980px) {
+
+}
+@media only screen and (max-width:650px) {
+    body #page {
+        width: 650px;
+    }
+    body hgroup {
+        width: 38%;
+    }
+    body .contact {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    body .site {
+        padding: 0;
+    }
+    body #footer-inside {
+        width: 650px;
+    }
+
+    /*UC cart*/
+    #formWrap {
+        margin: 0 auto;
+        width: 100%;
+    }
+    #orderReview.big_cart {
+        width: 98%;
+        padding: 5px;
+        margin: 15px 5px;
+    }
+    #shippingInfo, #billingInfo {
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    #shippingMethod, #paymentMethod, #orderReview, #summaryReview {
+        width: 98%;
+    }
+    #shopping-cart td {
+        font-size: 12px;
+    }
+    body .col-xs-6 {
+        width: 98%;
+    }
+    .uc_all_order_info {
+        width: 98%;
+        padding: 5px;
+        margin: 15px 5px;
+    }
+    body .uc_checkout_sidebar img {
+        max-width: 100%;
+        margin: auto;
+        display: table;
+        float: none;
+    }
+    .btn.update-qty {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    table#shopping-cart tr .item-qty input {
+        width: 36px;
+        margin-bottom: 4px;
+    }
+    .form-horizontal > div {
+        clear: both;
+    }
+    .uc_checkout_sidebar {
+        margin: 15px 5px;
+        padding: 0;
+        width: 98%;
+    }
+    .uc_checkout_sidebar img {
+        float: left;
+        max-width: 100%;
+    }
+}
